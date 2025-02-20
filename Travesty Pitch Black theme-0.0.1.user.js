@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Travesty Pitch Black theme
 // @namespace    http://tampermonkey.net/
-// @version      0.0.1
+// @version      0.0.2
 // @description  Pitch black theme for Travesty
 // @author       1_Mythical
 // @match        https://alpha.travesty.chat/*
@@ -31,6 +31,10 @@
 
     const style = document.createElement('style');
     style.innerHTML = `
+        body {
+            background-color: #000000;
+        }
+            
         .css-9udf7b::-webkit-scrollbar-track {
             background-color: rgb(0, 0, 0);
         }
