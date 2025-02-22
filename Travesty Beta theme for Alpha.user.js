@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Travesty Pitch Black theme
+// @name         Travesty Beta theme
 // @namespace    http://tampermonkey.net/
 // @version      0.0.3
-// @description  Pitch black theme for Travesty
+// @description  Beta theme for Travesty alpha
 // @author       1_Mythical
 // @match        https://alpha.travesty.chat/*
 // @icon         https://alpha.travesty.chat/logo.png
@@ -76,6 +76,10 @@
 
         .chakra-button css-4g16hc {
             background-color: #FF0000;
+        }
+
+        .css-vqklpc {
+            background-color: #262638;
         }
 
         .css-11pna72:focus-visible, .css-11pna72[data-focus-visible] {
