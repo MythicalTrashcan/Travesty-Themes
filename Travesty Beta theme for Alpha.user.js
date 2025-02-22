@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Travesty Pitch Black theme
 // @namespace    http://tampermonkey.net/
-// @version      0.0.2
+// @version      0.0.3
 // @description  Pitch black theme for Travesty
 // @author       1_Mythical
 // @match        https://alpha.travesty.chat/*
@@ -62,7 +62,7 @@
 
         /* The server title and the dropdown for server management if you are a server owner */
         .css-164bh9z {
-            background-color: #525560;
+            background-color: #636675;
         }
 
         .css-13yl7ql {
