@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Travesty Pitch Black theme
 // @namespace    http://tampermonkey.net/
-// @version      0.0.4
+// @version      0.0.2
 // @description  Pitch black theme for Travesty
 // @author       1_Mythical
 // @match        https://alpha.travesty.chat/*
@@ -52,15 +52,17 @@
 
         /* The scrollbar used when in a channel on a server */
         .css-9udf7b::-webkit-scrollbar-track {
+            background-color: #4A4C56;
         }
 
         /* The scrollbar used when scrolling through the friends list */
         .css-1gbighu::-webkit-scrollbar-track {
+            background-color: #4A4C56;
         }
 
         /* The server title and the dropdown for server management if you are a server owner */
         .css-164bh9z {
-            background-color: #262736;
+            background-color: #525560;
         }
 
         .css-13yl7ql {
@@ -70,6 +72,10 @@
 
         .css-13bgte7 {
             background-color: #262638;
+        }
+
+        .chakra-button css-4g16hc {
+            background-color: #FF0000;
         }
 
         .css-11pna72:focus-visible, .css-11pna72[data-focus-visible] {
