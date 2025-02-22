@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Travesty Pitch Black theme
 // @namespace    http://tampermonkey.net/
-// @version      0.0.2
+// @version      0.0.3
 // @description  Pitch black theme for Travesty
 // @author       1_Mythical
 // @match        https://alpha.travesty.chat/*
@@ -47,7 +47,7 @@
     style.innerHTML = `
         /* The body element */
         body {
-            background-color: #000000;
+            background-color: #636675;
         }
 
         /* The scrollbar used when in a channel on a server */
