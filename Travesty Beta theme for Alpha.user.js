@@ -26,7 +26,7 @@
     // Account bar at the bottom left corner
     document.documentElement.style.setProperty("--chakra-colors-accountBar", "#191A2A");
     // The message box
-    document.documentElement.style.setProperty("--chakra-colors-messageInput", "#5B5D6B");
+    document.documentElement.style.setProperty("--chakra-colors-messageInput", "#262736");
     // All of these were just shades of grey which were set the pitch black
     document.documentElement.style.setProperty("--chakra-colors-brandGray-darker", "#111123");
     document.documentElement.style.setProperty("--chakra-colors-brandGray-light", "#636675");
