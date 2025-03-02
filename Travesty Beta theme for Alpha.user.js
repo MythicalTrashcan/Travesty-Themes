@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Travesty Beta theme
 // @namespace    http://tampermonkey.net/
-// @version      0.0.3
+// @version      0.0.5
 // @description  Beta theme for Travesty alpha
 // @author       1_Mythical
 // @match        https://alpha.travesty.chat/*
@@ -34,6 +34,7 @@
     document.documentElement.style.setProperty("--chakra-colors-brandGray-active", "#20212D");
     document.documentElement.style.setProperty("--chakra-colors-brandGray-hover", "#757789");
     document.documentElement.style.setProperty("--chakra-colors-brandGray-accent", "#ffffff");
+    document.documentElement.style.setProperty("--chakra-colors-labelGray", "#c5c5c5");
     // This is the color used in the "Add Friend" box and the + button for adding servers
     document.documentElement.style.setProperty("--chakra-colors-brandGreen", "#20C507");
     // This red seems to only be used for new DM's, friend requests, and the "Pending" button on the main page
